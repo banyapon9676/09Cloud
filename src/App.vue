@@ -1,6 +1,6 @@
 <template>
 <div>
-  <b-navbar toggleable type="dark" variant="dark">
+  <b-navbar toggleable type="dark" variant="primary">
     <b-navbar-brand to="/">Hotel  </b-navbar-brand>
   </b-navbar>
   <router-view/>

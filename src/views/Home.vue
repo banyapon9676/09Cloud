@@ -1,7 +1,9 @@
 <template>
-  <div class="home">
-   
+  <div class="home container ">
+    <b-card>
+    <h2>Register</h2>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    </b-card>
   </div>
   
 </template>
