@@ -1,10 +1,9 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+<div>
+  <b-navbar toggleable type="dark" variant="dark">
+    <b-navbar-brand to="/">Hotel  </b-navbar-brand>
+  </b-navbar>
+  <router-view/>
   </div>
 </template>
 
